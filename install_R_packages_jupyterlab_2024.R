@@ -463,6 +463,7 @@ if (runif==TRUE) {
 if (!require("officer", character.only = TRUE, quietly = TRUE)){
   #system("wget https://cran.r-project.org/src/contrib/Archive/officer/officer_0.5.0.tar.gz")
   #install.packages("officer_0.5.0.tar.gz", repos=NULL, dependencies = T, quiet = F)
+  install.packages("ragg", quiet = F)
   remotes::install_github("davidgohel/officer")
   suppressMessages(library(officer))
 }
