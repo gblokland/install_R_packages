@@ -4,7 +4,7 @@
 options('repos'="https://cran.rstudio.com/")
 options('repos')
 #setwd("~/code/R_packages")
-setwd("/root/persistent/code/R_packages")
+#setwd("/root/persistent/code/R_packages")
 if (!require("calibrate", character.only = TRUE, quietly = TRUE)){
   install.packages("calibrate", quiet = F)
   #system("wget https://cran.r-project.org/src/contrib/Archive/calibrate/calibrate_1.7.2.tar.gz")
