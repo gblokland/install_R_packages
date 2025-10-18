@@ -218,6 +218,7 @@ if (!require("dplyr", character.only = TRUE, quietly = TRUE)){
   #install.packages("ellipsis_0.0.1.tar.gz", repos=NULL, quiet = F)
   install.packages("tidyselect", quiet = F)
   #install.packages("glue")
+  install.packages("dplyr", quiet = F)
   #install.packages('dplyr_1.0.6.tar.gz', repos=NULL, dependencies=T, quiet = F)
   suppressMessages(library(dplyr))
 }
